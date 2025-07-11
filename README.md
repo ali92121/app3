@@ -1,1 +1,23 @@
-# app3
+# app3, raed complete guide.md then for each phase raed their own markdown to implement.
+# Core requirements
+PyQt6>=6.6.0
+SQLAlchemy>=2.0.0
+pysqlcipher3
+pandas>=2.0.0
+numpy>=1.24.0
+
+# UI Enhancement
+qtawesome>=1.2.3
+qtmodern>=0.2.0
+pyqtdarktheme>=2.1.0
+
+# Clinical Features
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.11
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.21.0
+
+# Data Processing
+pydantic>=2.0.0
+python-dateutil>=2.8.0
+validators>=0.20.0
