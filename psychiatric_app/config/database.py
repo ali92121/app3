@@ -53,7 +53,14 @@ class DatabaseManager:
             )
             
             # Import all models to ensure they're registered
-            from psychiatric_app.models import patient, medication, lab_result, symptom_assessment
+            from psychiatric_app.models import (
+                patient,
+                medication,
+                lab_result,
+                symptom_assessment,
+                substance_use,
+                clinical_scale,
+            )
             
             # Create all tables
             Base.metadata.create_all(bind=self.engine)
