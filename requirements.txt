@@ -1,28 +1,15 @@
-# Core requirements
+# Core UI Framework
 PyQt6>=6.6.0
-SQLAlchemy>=2.0.0
-pysqlcipher3
-pandas>=2.0.0
-numpy>=1.24.0
-
-# UI Enhancement
 qtawesome>=1.2.3
-qtmodern>=0.2.0
-qdarktheme>=2.1.0
 
-# Clinical Features
-SpeechRecognition>=3.10.0
-pyaudio>=0.2.11
-fuzzywuzzy>=0.18.0
-python-Levenshtein>=0.21.0
+# Database and ORM
+SQLAlchemy>=2.0.0
+# pysqlcipher3>=0.5.0  # Commented out due to missing system dependencies
 
-# Data Processing
+# Data Processing and Utilities
+pandas>=2.0.0
 pydantic>=2.0.0
 python-dateutil>=2.8.0
-validators>=0.20.0
-
-# Security and encryption
-cryptography>=41.0.0
 
 # Additional utilities
-uuid
+cryptography>=3.4.8
