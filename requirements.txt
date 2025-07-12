@@ -8,7 +8,7 @@ numpy>=1.24.0
 # UI Enhancement
 qtawesome>=1.2.3
 qtmodern>=0.2.0
-qdarktheme>=2.1.0
+pyqtdarktheme>=2.1.0
 
 # Clinical Features
 SpeechRecognition>=3.10.0
