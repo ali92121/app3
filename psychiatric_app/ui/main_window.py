@@ -14,7 +14,7 @@ from PyQt6.QtGui import QAction, QIcon, QKeySequence
 from psychiatric_app.ui.components.theme_manager import ThemeManager
 from psychiatric_app.ui.demographics_form import DemographicsForm
 from psychiatric_app.ui.symptom_assessment import SymptomAssessmentWidget
-from psychiatric_app.ui.medication_manager import MedicationManagerWidget
+from psychiatric_app.ui.medication_manager import MedicationManager
 from psychiatric_app.ui.lab_results import LabResultsWidget
 from psychiatric_app.config.settings import (
     WINDOW_MIN_WIDTH, WINDOW_MIN_HEIGHT, WINDOW_DEFAULT_WIDTH, WINDOW_DEFAULT_HEIGHT,
@@ -123,7 +123,7 @@ class MainWindow(QMainWindow):
         self.main_content.addTab(self.symptom_assessment, "Symptoms")
         
         # Medications tab
-        self.medication_manager = MedicationManagerWidget()
+        self.medication_manager = MedicationManager()
         self.main_content.addTab(self.medication_manager, "Medications")
         
         # Lab Results tab

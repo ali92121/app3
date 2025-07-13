@@ -34,8 +34,8 @@ class PsychiatricApp:
         # self.app.setWindowIcon(QIcon("resources/icons/app_icon.png"))
         
         # Enable high DPI scaling
-        self.app.setAttribute(Qt.ApplicationAttribute.AA_EnableHighDpiScaling, True)
-        self.app.setAttribute(Qt.ApplicationAttribute.AA_UseHighDpiPixmaps, True)
+        # self.app.setAttribute(Qt.ApplicationAttribute.AA_EnableHighDpiScaling, True)
+        # self.app.setAttribute(Qt.ApplicationAttribute.AA_UseHighDpiPixmaps, True)
         
     def initialize_database(self):
         """Initialize the database connection"""
